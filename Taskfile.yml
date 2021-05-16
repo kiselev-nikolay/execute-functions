@@ -1,0 +1,16 @@
+version: '3'
+
+tasks:
+  devserver:
+    cmds:
+      - go run ./cmd/server/server.go
+  devserver:
+    cmds:
+      - go build -o ./frontend/main.wasm ./app 
+    env:
+      GOOS: js
+      GOARCH: wasm
+  devserver:
+    dir: ./frontend/restlang/
+    cmds:
+      - npx webpack
