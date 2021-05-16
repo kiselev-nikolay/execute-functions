@@ -1,8 +1,8 @@
-# Execute.fun
+# Execute function
 
 This [RESTscript](https://github.com/kiselev-nikolay/restscript) implementation with a Go executor in WASM.
 
-Live in-browser: [execute.fun](https://execute.fun)
+Live in-browser: [https://kiselev-nikolay.github.io/execute-functions/](https://kiselev-nikolay.github.io/execute-functions/)
 
 ## In-Browser example:
 
